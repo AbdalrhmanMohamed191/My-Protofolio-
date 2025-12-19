@@ -1,0 +1,192 @@
+/* .social-links a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #acbed9;
+
+}
+.social-links a:active {
+  transform: scale(0.95);
+} */
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364) !important;
+  padding: 100px 0;
+}
+
+
+.hero-title {
+  font-size: 3rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #d1d5db;
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0d6efd;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* ABOUT */
+#about ul li {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+/* PROJECTS */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* SOCIAL */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 2.3rem;
+  color: #1f2937;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon.facebookId:hover {
+  color: #0d6efd;
+  transform: scale(1.15);
+}
+
+.social-icon.githubId:hover {
+  color: gray;
+  transform: scale(1.15);
+}
+
+.social-icon.linkedinId:hover {
+  color: #0d6efd;
+  transform: scale(1.15);
+}
+
+.social-icon.instagramId:hover {
+  color: #e1306c;
+  transform: scale(1.15);
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  color: white;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover !important;
+  border-radius: 50%;
+  border: 5px solid #0d6efd;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.profile-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive adjustments */
+
+/* Hero Section */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* About Section */
+@media (max-width: 767px) {
+  #about .d-flex.flex-md-row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  #about .me-md-4 {
+    margin-right: 0 !important;
+  }
+
+  #about .profile-img {
+    margin: 0 auto 20px auto;
+  }
+
+  #about ul {
+    padding-left: 0;
+  }
+
+  #about ul li {
+    font-size: 1rem;
+  }
+}
+
+/* Projects Section */
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Social Icons */
+@media (max-width: 480px) {
+  .social-icon {
+    font-size: 1.8rem;
+  }
+}
+
+/* Footer */
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.8rem;
+    padding: 10px 5px;
+  }
+}
+
+
