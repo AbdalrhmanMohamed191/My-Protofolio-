@@ -10,7 +10,6 @@ import "./Home.css";
 export const Home = () => {
   return (
     <>
-
     {/* HERO SECTION */}
 <section className="hero-section text-light py-5 bg-dark">
   <div className="container text-center">
@@ -40,7 +39,6 @@ export const Home = () => {
     </div>
   </div>
 </section>
-
 
 {/* ABOUT SECTION */}
 <section className="py-5" id="about">
@@ -91,18 +89,15 @@ export const Home = () => {
     </div>
   </div>
 </section>
-
-     
-
     
     {/* PROJECTS SECTION */}
-<section className="bg-light py-5" id="projects">
+    <section className="bg-light py-5" id="projects">
   <div className="container">
     <h2 className="text-center fw-bold mb-5">My Projects</h2>
 
     <div className="row g-4">
       {/* Project 1 */}
-      <div className="col-md-4">
+      <div className="col-md-4 project-card">
         <div className="card h-100 shadow-sm">
           <div className="card-body">
             <h5 className="card-title">Authentication System (BE)</h5>
@@ -126,19 +121,19 @@ export const Home = () => {
       </div>
 
       {/* Project 2 */}
-      <div className="col-md-4">
+      <div className="col-md-4 project-card">
         <div className="card h-100 shadow-sm">
           <div className="card-body">
             <h5 className="card-title">Authentication System (FE)</h5>
             <p className="card-text text-muted">
-              Secure authentication system built with Express.js,
+              Secure authentication system built with React.js,
               featuring user registration, login, password reset,
               role-based access control, and JWT authentication.
             </p>
           </div>
           <div className="card-footer bg-white border-0">
             <a
-              href="https://github.com/AbdalrhmanMohamed191/Final-Dance-FE.git"
+              href="https://github.com/AbdalrhmanMohamed191/Front-End-Auth.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-dark w-100"
@@ -150,7 +145,7 @@ export const Home = () => {
       </div>
 
       {/* Project 3 */}
-      <div className="col-md-4">
+      <div className="col-md-4  project-card">
         <div className="card h-100 shadow-sm">
           <div className="card-body">
             <h5 className="card-title">Student Management System</h5>
@@ -174,7 +169,7 @@ export const Home = () => {
       </div>
 
       {/* Project 4 */}
-      <div className="col-md-4">
+      <div className="col-md-4 project-card">
         <div className="card h-100 shadow-sm">
           <div className="card-body">
             <h5 className="card-title">E-Commerce Website</h5>
@@ -198,14 +193,13 @@ export const Home = () => {
       </div>
 
       {/* Project 5 */}
-      <div className="col-md-4">
+      <div className="col-md-4 project-card">
         <div className="card h-100 shadow-sm">
           <div className="card-body">
             <h5 className="card-title">Blog Application</h5>
             <p className="card-text text-muted">
-              Full-featured blog application built using React.js, Node.js,
-              and MongoDB, featuring user authentication, post creation,
-              and comment functionality.
+              Full-featured blog application built using React.js,
+              Node.js, and MongoDB with authentication and comments.
             </p>
           </div>
           <div className="card-footer bg-white border-0">
@@ -222,7 +216,7 @@ export const Home = () => {
       </div>
 
       {/* Project 6 */}
-      <div className="col-md-4">
+      <div className="col-md-4 project-card">
         <div className="card h-100 shadow-sm">
           <div className="card-body">
             <h5 className="card-title">Portfolio Website</h5>
@@ -233,7 +227,7 @@ export const Home = () => {
           </div>
           <div className="card-footer bg-white border-0">
             <a
-              href="https://github.com/AbdalrhmanMohamed191/Portfolio-Website.git"
+              href="https://github.com/AbdalrhmanMohamed191/My-Protofolio-.git"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-dark w-100"
@@ -243,11 +237,33 @@ export const Home = () => {
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
 
-
+      {/* Project 7 */}
+      <div className="col-md-4 project-card">
+        <div className="card h-100 shadow-sm">
+          <div className="card-body">
+            <h5 className="card-title">Games Platform</h5>
+            <p className="card-text text-muted">
+              Games platform built with React.js Rock Paper Scissors game.
+              
+            </p>
+          </div>
+          <div className="card-footer bg-white border-0">
+            <a
+              href="https://github.com/AbdalrhmanMohamed191/Rock----Paper----Scissors--Game.git"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-dark w-100"
+            >
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Project 8 */}
+      </div>
+      </div>
+  </section>
 
       {/* CONTACT SECTION */}
       <section className="py-5" id="contact">
